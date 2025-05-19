@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(252, 251, 251);
+    background-color: rgb(245, 242, 242);
 }
 
 /* Titulos principal com nome */
@@ -29,10 +29,15 @@ h2 {
 
 /*Descrição embaixo do titulo principal*/
 .p1{
+    color: #15158f;
     text-align: center;
-    margin-bottom: 30px;
+    background-color:#c8c8f8;
+    border-radius: 5px;
+    width: 95%;
+    margin: -20px auto;
+    margin-bottom: 25px;
     font-size: 19px;
-    font-weight: bold;
+    padding: 0px 10px;
 }
 
 /*Descrição embaixo dos titulos secundarios*/
@@ -89,4 +94,35 @@ h2 {
 ul{
     margin: 30px -21px 10px;
     width: 95%;
+}
+
+.centraliza{
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+    color:#15158f;
+}
+
+a:hover{
+color: #47478b;
+}
+
+/*Mudar o fundo do retangulo*/
+.links:hover{
+background-color:#a8a8f3;
+
+}
+/*Retangulo branco ao redor dos links*/
+.links{
+    background-color: rgb(255, 255, 255);
+    width: 12%;
+    padding: 3px 7px;
+    border: 1px solid rgb(219, 216, 216);
+    border-radius: 4px;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
 }
