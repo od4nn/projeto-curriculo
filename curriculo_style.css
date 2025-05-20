@@ -96,11 +96,6 @@ ul{
     width: 95%;
 }
 
-.centraliza{
-    text-align: center;
-}
-
-
 a{
     text-decoration: none;
     color:#15158f;
@@ -116,7 +111,7 @@ background-color:#a8a8f3;
 
 }
 /*Retangulo branco ao redor dos links*/
-.links{
+.menu{
     background-color: rgb(255, 255, 255);
     width: 12%;
     padding: 3px 7px;
@@ -125,4 +120,8 @@ background-color:#a8a8f3;
     text-align: center;
     margin: auto;
     display: inline-block;
+}
+
+.menu li{
+    list-style-ty: none;
 }
